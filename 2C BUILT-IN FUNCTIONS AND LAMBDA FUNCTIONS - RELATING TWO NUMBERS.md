@@ -4,37 +4,33 @@
 ---
 
 ### AIM  
-To write a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function.
+Write a python program to convert the given decimal number into octal number using oct() function.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Use `eval()` to get two numbers (`num1` and `num2`) from the user.  
-3. Define a lambda function `max` that takes two arguments `x` and `y`.  
-4. The lambda function compares the numbers and prints:
-   - If `x > y`, then it prints: "`num2` is smaller than `num1`".
-   - Otherwise, it prints: "`num1` is smaller than `num2`".
-5. Call the lambda function by passing `num1` and `num2` as arguments.  
-6. Terminate the program.
+1. **Start** the program.
+2. **Take input** from the user as a decimal number.
+3. **Convert** the input string to an integer using `int()`.
+4. **Use** the built-in `oct()` function to convert the decimal number to an octal string.
+5. **Display** the octal number to the user.
+6. **End** the program.
 
 ---
 
 ### PROGRAM
 
 ```
-
+a=int(input())
+b=oct(a)
+print(b)
 ```
 
 ### OUTPUT
 
-```
+![Screenshot (191)](https://github.com/user-attachments/assets/faa84e8e-c20a-4294-a373-0b267d3cd42a)
 
-```
 
 ### RESULT
-
-```
-
-```
+Thus,the program to convert the given decimal number into octal number using oct() function was implemented and executed successfully.
