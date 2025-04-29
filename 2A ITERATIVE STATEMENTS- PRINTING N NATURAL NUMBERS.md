@@ -1,5 +1,5 @@
 # Exp. No: 2a  
-## ITERATIVE STATEMENTS – PRINTING N NATURAL NUMBERS
+## ITERATIVE STATEMENTS – PRINTING NUMBERS FROM M TO N.
 
 ###  Aim
 Python Program to print numbers  range from M to N (including M and N values).
